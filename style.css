@@ -1,0 +1,560 @@
+a{
+    color: black;
+}
+
+h2
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+body
+{
+    font-family: sans-serif;
+    margin: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+h1
+{
+    font-family: Allura;
+    font-size: 40px;
+}
+h2
+{
+    font-size: 20px;
+}
+h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: black;
+    padding: 20px;
+}
+p
+{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+#container
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+section{
+    min-height: 800px;
+    width: 100%;
+    background-color: rgb(250,250,250);
+    float: none;
+}
+
+
+
+
+/**           */
+/*  Side Bar  */
+/**           */
+
+
+#sideBar
+{
+    width: 33%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background-image: url(images/back.jpg);*/
+    background-color: rgb(25,25,25);
+    box-shadow: 5px 0px 16px -6px rgba(0,0,0,1);
+    height: 100%;
+    /*padding-top: 60px;*/
+}
+#sideBar h1
+{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: white;
+}
+
+#sideBar h2
+{
+    text-align: right;
+    color: white;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+
+/*              */
+/*  navigation  */
+/*              */
+
+
+#sideBar nav
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+nav ul li
+{
+    display: block;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    padding-left: 5px;
+}
+nav ul li button
+{
+    box-decoration-break: clone;
+}
+
+
+/*                */
+/*   Sub Header   */
+/*                */
+/*
+.subHeader{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+*/
+
+
+
+
+/*  social media  */
+
+#socialMedia
+{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+}
+
+
+
+/**              */
+/*  main content */
+/**              */
+
+
+#main
+{
+    background-color: white;
+    width: 67%;
+    height: 200%;
+    float: right;
+    height: 2400px;
+    margin-right: 0px;
+}
+#me img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*border-top: solid white 50px;
+    border-bottom: solid white 50px;*/
+
+}
+#galleryDiv
+{
+    width: 100%;
+}
+#gallery img
+{
+    border: solid black 1px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main h3
+{
+    text-align: center;
+}
+
+
+
+.section
+{
+    width: 100%;
+    max-width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.whiteSection
+{
+    background-color: white;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: 0px 5px 12px -9px rgba(0,0,0,0.75);
+    z-index: 2;
+    float: left;
+
+}
+
+/*                */
+/*   image section  */
+/*                */
+
+.leftSection
+{
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+}
+.rightSection
+{
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: right;
+    border-left: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+
+/*                */
+/*  me  */
+/*                */
+
+#me.section
+{
+    min-height: 800px;
+    background-image: url(images/image0_800.jpg);
+    /*Taken by ActionVance*/
+    /*unsplash.com/@actionvance*/
+
+}
+#me p
+{
+    color: white;
+}
+
+/*                */
+/*About me*/
+/*                */
+
+#aboutMe.section
+{
+    background-image: url(images/image1_800.jpg);
+    /*Taken by Viktor Forgacs*/
+    /*unsplash.com/@sonance*/
+}
+#aboutMe p
+{
+    color:white;
+}
+
+#experience.section
+{
+    background-image: url(images/image2_800.jpg);
+    /*Taken by Markus Spiske*/
+    /*unsplash.com/@markusspiske*/
+}
+#experience p
+{
+    color: white;
+}
+#experience li
+{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+/*                */
+/* Background */
+/*                */
+
+#slidesContainer
+{
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    float: left;
+
+}
+#slides
+{
+    display: flex;
+    max-width: 1500px;
+    height: 800px;
+}
+.slide
+{
+    max-height: 800px;
+}
+.textInSlide
+{
+    display: block;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.textInSlide P
+{
+  display: block;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 100px;
+}
+
+#slides.rightSection
+{
+
+    position: absolute;
+    right: 50%;
+    max-height:800px;
+}
+#previousButton
+{
+    z-index: 10;
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+#nextButton
+{
+    z-index: 10;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+/*                */
+/* Other Interests */
+/*                */
+
+.subsection
+{
+    display: block;
+    float: left;
+    min-height: 400px;
+    max-height: 500px;
+}
+#interests
+{
+    z-index: 3;
+    margin-top: 20px;
+}
+#interests p
+{
+    display: block;
+    font-size: 25px;
+
+}
+
+
+
+input[type=text]
+{
+    width: 45%;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+}
+ input[type=email]
+ {
+    width: 45%;
+    margin-left: auto;
+    margin-bottom: 30px;
+    float: right;
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+ }
+ textarea
+ {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+ }
+
+form
+{
+    display: block;
+    margin: auto;
+}
+
+ input[type=submit], input[type=reset]
+ {
+     width: 20%;
+     margin-left: 20%;
+     margin-right: auto;
+     border: solid 2px lightgray;
+     background-color: white;
+     padding: 10px;
+     margin-bottom: 100px;
+ }
+
+ footer
+ {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     width: 100%;
+     background-color: rgb(232,232,232);
+     float: left;
+ }
+ footer p
+ {
+     text-align: center;
+ }
+
+
+#contactBar
+{
+    background-color: rgb(100, 100, 100);
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+#contactBar p
+{
+    display: block;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#contactText
+{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+ @media screen and (max-device-width: 500px)
+ {
+     p
+     {
+       margin-left: 10%;
+       margin-right: 10%;
+     }
+     #sideBar
+     {
+         display: none;
+     }
+     #main
+     {
+         width: 100%;
+     }
+     #main section
+     {
+         width: 100%;
+     }
+     #main section p, #main section ul li
+     {
+         font-size: 40px;
+     }
+     #main section h4
+     {
+         font-size: 35px;
+     }
+     #main section input, #main section textarea
+     {
+         font-size: 40px;
+         width: 100%;
+         margin-left: 0px;
+         margin-right: 0px;
+         float: none;
+         margin-bottom: 30px;
+     }
+
+     .leftSection, .rightSection
+     {
+       width: 100%;
+       border: none;
+     }
+     .whiteSectin h3
+     {
+       font-size: 50px;
+     }
+     #experience li
+     {
+       margin-left: 15%;
+       margin-right: 15%;
+       margin-bottom: 0%;
+     }
+     .textInSlide
+     {
+       height: 66%;
+       top: 12%;
+     }
+     .textInSlide p
+     {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+     }
+     .subsection
+     {
+       min-height: 200px;
+     }
+ }
